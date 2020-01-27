@@ -1,0 +1,10 @@
+
+#.gitignore
+.idea/workspace.xml
+.idea/
+
+#Ignore Gradle GUI config
+.gradle/
+.gradletasknamecache
+!gradle-wrapper.jar
+gradle-app.setting
