@@ -21,6 +21,6 @@ public class base{
         URL remoteUrl = new URL ("http://localhost:4723/wd/hub");
         IOSDriver <IOSElement> driver = new IOSDriver (remoteUrl, desiredCapabilities);
         return driver;
-        dlkfoerkfporefkpoerfopr
+
     }
 }
