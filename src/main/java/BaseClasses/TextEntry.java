@@ -15,6 +15,7 @@ public class TextEntry extends Capabilities {
         driver.findElementByXPath ("//*[@value='Text Entry']").click ();
         driver.findElementByClassName("XCUIElementTypeTextField").sendKeys ( "hello  it's me" );
         driver.findElementByName("OK").click();Utils.sleep(6);
+        driver.navigate().back();
     }
     @AfterClass
     public void teardown() {
