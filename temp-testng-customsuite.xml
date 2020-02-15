@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="iOSAPP">
+    <classes>
+      <class name="BaseClasses.TextEntry"/>
+      <class name="BaseClasses.DropDwon"/>
+      <class name="BaseClasses.ScrolDwon"/>
+      <class name="BaseClasses.IncAndDeElements"/>
+    </classes>
+  </test> <!-- iOSAPP -->
+</suite> <!-- Default Suite -->
