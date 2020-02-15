@@ -26,5 +26,7 @@ public class Capabilities {
         driver = new IOSDriver (remoteUrl, desiredCapabilities);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         return driver;
+        // bundel id com.example.apple-samplecode.UICatalog
     }
+
 }
