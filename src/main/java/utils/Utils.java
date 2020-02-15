@@ -2,7 +2,6 @@
 package utils;
 
 public class Utils {
-
         /**
          * @param second
          * Pause the thread
